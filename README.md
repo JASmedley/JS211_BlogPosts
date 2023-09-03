@@ -14,10 +14,10 @@ Example as a const variable: const legalAgeCategory = (age >= 18) ? "Adult" : "M
 Example as a function: const legalAgeCategory = (age) => {return age >=18 ? "Adult" : "Minor"}
 </p>
 <b>6. What are some ways to ensure that your website design or web application is accessible and user-friendly?</b>
-<p></p>
+<p>Adding alt text to img elements can help ensure it's accessible. Also heavily limiting or completely excluding iFrames is very helpful and more user-friendly.</p>
 <b>7. What are your favorite features of HTML5, and how have you implemented them in your front-end development projects?</b>
 <p></p>
 <b>8. How do you structure your CSS and JavaScript to make it easier for other developers to work with?</b>
-<p></p>
+<p>Writing comments is exceedingly important, but also naming your variables in JavaScript in descriptive and accurate ways can help others understand. Also avoiding using ternary operators unless the purpose of the function or variable is very obvious, as it can make it harder to read and understand what's going on. </p>
 <b>9. What's your process for addressing browser-specific rendering problems? Do you find that a certain browser is more challenging to work with than others?</b>
 <p></p>
