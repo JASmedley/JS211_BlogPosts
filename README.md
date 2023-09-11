@@ -1,4 +1,17 @@
 # JS211BlogPosts
+<h2>Class 4: Prompt 202 - September 7</h2>
+<b>What's something that's been confusing? How would you explain it to someone else?</b>
+<p></p>
+<b>What is "use strict";? What are the advantages and disadvantages to using it?</b>
+<p></p>
+<b>Explain function hoisting in JavaScript.</b>
+<p></p>
+<b>Explain the importance of standards and standards bodies like ECMA.</b>
+<p></p>
+<b>What actions have you personally taken on recent projects to increase maintainability of your code?</b>
+<p></p>
+<b>Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?</b>
+<p></p>
 <h2>Class 2: Prompt 201 - August 31</h2>
 <b>1. Describe one thing you're learning in class today.</b>
 <p>I learned how the <code>!</code> (not) operator worked, which took some time but ultimately I got there. Also, I learned that JavaScript will actually accept a string even if there's an expected number value. In today's example, it was checking whether <code>num1 > 0</code> was <code>true</code> or <code>false</code>  Me and the rest of my classmates thought that if <code>num1 = "7"</code> (a string) and not <code>num1 = 7</code> (a number) that the function would mark it as false. However, it accepted it even though it was a string value.</p>
