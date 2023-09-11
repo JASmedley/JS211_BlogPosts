@@ -1,16 +1,16 @@
 # JS211BlogPosts
 <h2>Class 4: Prompt 202 - September 7</h2>
-<b>What's something that's been confusing? How would you explain it to someone else?</b>
+<b>1. What's something that's been confusing? How would you explain it to someone else?</b>
 <p></p>
-<b>What is "use strict";? What are the advantages and disadvantages to using it?</b>
+<b>2. What is "use strict";? What are the advantages and disadvantages to using it?</b>
+<p><code>"use strict";</code> is a direction in JavaScript that enables "strict mode" in a script or function. It helps developers write error-free JavaScript code by catching common coding mistakes and preventing the use of problematic features.<code>"use strict";</code> is used for updating existing code to improve quality and catch potential bugs. Strict mode might not be supported in older browsers or environments and can also make it more difficult to write code if you're not used to writing code to adher to stricter rules.</p>
+<b>3. Explain function hoisting in JavaScript.</b>
 <p></p>
-<b>Explain function hoisting in JavaScript.</b>
+<b>4. Explain the importance of standards and standards bodies like ECMA.</b>
 <p></p>
-<b>Explain the importance of standards and standards bodies like ECMA.</b>
+<b>5. What actions have you personally taken on recent projects to increase maintainability of your code?</b>
 <p></p>
-<b>What actions have you personally taken on recent projects to increase maintainability of your code?</b>
-<p></p>
-<b>Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?</b>
+<b>6. Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?</b>
 <p></p>
 <h2>Class 2: Prompt 201 - August 31</h2>
 <b>1. Describe one thing you're learning in class today.</b>
