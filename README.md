@@ -1,17 +1,24 @@
 # JS211BlogPosts
 <h2>Class 4: Prompt 202 - September 7</h2>
 <b>1. What's something that's been confusing? How would you explain it to someone else?</b>
-<p></p>
+<p>For loops have been confusing, specifically writing them. I've understood the logic better now, but I don't think there is much to explain for writing them other than to just write it once, and get used to writing or copying and pasting it and then switching out variables based on what you are trying to accomplish. </p>
 <b>2. What is "use strict";? What are the advantages and disadvantages to using it?</b>
 <p><code>"use strict";</code> is a direction in JavaScript that enables "strict mode" in a script or function. It helps developers write error-free JavaScript code by catching common coding mistakes and preventing the use of problematic features.<code>"use strict";</code> is used for updating existing code to improve quality and catch potential bugs. Strict mode might not be supported in older browsers or environments and can also make it more difficult to write code if you're not used to writing code to adher to stricter rules.</p>
 <b>3. Explain function hoisting in JavaScript.</b>
-<p></p>
+<p>Function hoisting is when a function is referenced before it's actually defined. This works because the function definition is "hoisted" to the top of the current code, so it works as though it was defined before being referenced.
+Example: </p>
+<code>sayHello(); //function is referenced here, but hasn't been defined yet
+
+  function sayHello() {
+  console.log("Hello, world!");} //now the function has been defined
+</code>
+<br>
 <b>4. Explain the importance of standards and standards bodies like ECMA.</b>
-<p></p>
+<p>The ECMA (European Computer Manufacturers Association) is one of the organizations responsible for creating and maintaining standards in JavaScript and other programming languages. They are the ones deciding on what will become deprecated, what new built-in functions should be added, and also they try to mitigate backwards compatibility. </p>
 <b>5. What actions have you personally taken on recent projects to increase maintainability of your code?</b>
-<p></p>
+<p>One big thing for me is making sure my code is readable, I minimize accurately labeled functions that have been defined so that there is less code to look at when I go back to a project. This helps with the readability of it, and then I can also expand the functions to get a better understanding of how they operate. Giving the functions longer titles that describe what they do also makes it easier to understand the calls between functions. I try and comments that make sense to me, but I also delete out older comments that don't make senseo r that tend to crowd up the code. For me having less code to look at (even if it's commented out) makes it easier to understand and maintain the code. I also try and be consistent when writing functions, using the <code>const function = () => {} </code> method instead of the direct reference like <code>function thisFunction () {} </code> method. The consistency makese it easier to maintain.</p>
 <b>6. Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?</b>
-<p></p>
+<p>The global scope is shared by all scripts, documents, and libraries on a website. When you start using global variables or functions, you increase the risk of naming conflicts or unintended interactions between different parts of your code. Like defining a function in the global scope that ends up interfering with a different function you write for a single web page later. By not using the global scope, you reduce the chances of these conflicts.</p>
 <h2>Class 2: Prompt 201 - August 31</h2>
 <b>1. Describe one thing you're learning in class today.</b>
 <p>I learned how the <code>!</code> (not) operator worked, which took some time but ultimately I got there. Also, I learned that JavaScript will actually accept a string even if there's an expected number value. In today's example, it was checking whether <code>num1 > 0</code> was <code>true</code> or <code>false</code>  Me and the rest of my classmates thought that if <code>num1 = "7"</code> (a string) and not <code>num1 = 7</code> (a number) that the function would mark it as false. However, it accepted it even though it was a string value.</p>
