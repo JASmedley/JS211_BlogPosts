@@ -1,12 +1,19 @@
 # JS211BlogPosts
 <h2>Class 6: Prompt 203 - September 14</h2>
 <b>Describe one thing you're learning in class today.</b>
+<p></p>
 <b>What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
+<p></p>
 <b>What's the difference between an "attribute" and a "property"?</b>
+<p></p>
 <b>What language constructions do you use for iterating over object properties and array items?</b>
+<p></p>
 <b>What is the event loop?</b>
+<p></p>
 <b>What is the difference between call stack and task queue?</b>
+<p></p>
 <b>What are the differences between ES6 classes and ES5 function constructors?</b>
+<p></p>
 
 <h2>Class 4: Prompt 202 - September 7</h2>
 <b>1. What's something that's been confusing? How would you explain it to someone else?</b>
