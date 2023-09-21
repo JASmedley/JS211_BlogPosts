@@ -1,4 +1,13 @@
 # JS211BlogPosts
+<h2>Class 6: Prompt 203 - September 14</h2>
+<b>Describe one thing you're learning in class today.</b>
+<b>What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
+<b>What's the difference between an "attribute" and a "property"?</b>
+<b>What language constructions do you use for iterating over object properties and array items?</b>
+<b>What is the event loop?</b>
+<b>What is the difference between call stack and task queue?</b>
+<b>What are the differences between ES6 classes and ES5 function constructors?</b>
+
 <h2>Class 4: Prompt 202 - September 7</h2>
 <b>1. What's something that's been confusing? How would you explain it to someone else?</b>
 <p>For loops have been confusing, specifically writing them. I've understood the logic better now, but I don't think there is much to explain for writing them other than to just write it once, and get used to writing or copying and pasting it and then switching out variables based on what you are trying to accomplish. </p>
