@@ -1,19 +1,19 @@
 # JS211BlogPosts
 <h2>Class 8: Prompt 204 - September 21</h2>
-<b>Describe one thing you're learning in class today.</b><p></p>
+<b>1. Describe one thing you're learning in class today.</b><p></p>
 <p></p>
-<b>Can you describe the main difference between a forEach loop and a .map() loop and why you would pick one versus the other?</b>
-<p></p>
-<b>Describe event bubbling.</b>
-<p></p>
-<b>What is the definition of a higher-order function?</b>
-<p></p>
-<b>ES6 Template Literals offer a lot of flexibility in generating strings. Can you give an example?</b>
-<p></p>
-<b>What Is an associative array in JavaScript?</b>
-<p></p>
-<b>Why should you never use new Array in JavaScript?</b>
-<p></p>
+<b>2. Can you describe the main difference between a forEach loop and a .map() loop and why you would pick one versus the other?</b>
+<p>If you need to create a new array based on the original one, use .map(). If need to go through the array and perform some action without generating a new one, use forEach. So it depends on whether you need to transform data or just perform operations on it.</p>
+<b>3. Describe event bubbling.</b>
+<p>Event bubbling is a concept in JavaScript and DOMG that describes the order in which events are populated or "bubbled" up through the DOM hierarchy when an event occurs on a specific element. </p>
+<b>4. What is the definition of a higher-order function?</b>
+<p>Functions that take another function as one of their parameters.</p>
+<b>5. ES6 Template Literals offer a lot of flexibility in generating strings. Can you give an example?</b>
+<p>Yes, if you're trying to create a marketing email template and you have different variable information you want to include like the name of the person, their job title, etc. Instead of having to create one long <code>console.log</code> prompt with a series of commas and variables, you can write out the email and then just change the variales by adding <code>${}</code> around them.</p>
+<b>6. What is an associative array in JavaScript?</b>
+<p>Objects that have keys that reference each of the various values stored in the object. The keys and values together are called key-value pairs.</p>
+<b>7. Why should you never use new Array in JavaScript?</b>
+<p>When you create an array with new Array() and specify a length, you get a sparse array. A sparse array is one in which some indices have no assigned value.</p>
 <h2>Class 6: Prompt 203 - September 14</h2>
 <b>1. Describe one thing you're learning in class today.</b>
 <p>I have a really strong understanding of for loops now. Before I was memorizing the structure but not really understanding how they worked, but doing a prime number example helped me better understand how to think through problems and also exactly how for loops work.</p>
