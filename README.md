@@ -1,12 +1,27 @@
 # JS211BlogPosts
+<h2>Class 8: Prompt 204 - September 21</h2>
+<b>Describe one thing you're learning in class today.</b><p></p>
+<p></p>
+<b>Can you describe the main difference between a forEach loop and a .map() loop and why you would pick one versus the other?</b>
+<p></p>
+<b>Describe event bubbling.</b>
+<p></p>
+<b>What is the definition of a higher-order function?</b>
+<p></p>
+<b>ES6 Template Literals offer a lot of flexibility in generating strings. Can you give an example?</b>
+<p></p>
+<b>What Is an associative array in JavaScript?</b>
+<p></p>
+<b>Why should you never use new Array in JavaScript?</b>
+<p></p>
 <h2>Class 6: Prompt 203 - September 14</h2>
-<b>Describe one thing you're learning in class today.</b>
+<b>1. Describe one thing you're learning in class today.</b>
 <p>I have a really strong understanding of for loops now. Before I was memorizing the structure but not really understanding how they worked, but doing a prime number example helped me better understand how to think through problems and also exactly how for loops work.</p>
-<b>What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
+<b>2. What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
 <p>The first one is a function named "Person", the second one is a variable called "person" storing the function Person in it. The third one is altering the valueable person by adding a new blank property to the function Person.</p>
-<b>What's the difference between an "attribute" and a "property"?</b>
+<b>3. What's the difference between an "attribute" and a "property"?</b>
 <p>Attributes are the information pieces specific to the properties in an element in the DOM, and the properties are the applicable generic qualities. Basically, if you have an element that's <code>input type ="text"</code> then the property is <code>type</code> and the attribute is <code>"text"</code></p>
-<b>What language constructions do you use for iterating over object properties and array items?</b>
+<b>4. What language constructions do you use for iterating over object properties and array items?</b>
 <p>
   For Arrays: 
 <code>.slice()
@@ -29,11 +44,11 @@
 .map() 
 </code>
 </p>
-<b>What is the event loop?</b>
+<b>5. What is the event loop?</b>
 <p>An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.</p>
-<b>What is the difference between call stack and task queue?</b>
+<b>6. What is the difference between call stack and task queue?</b>
 <p> CallStack is a data structure which keeps track of function calls. Whenever we call a function, we are pushing it to the stack. Task queue is a different type of callback, it is dedicated to handling web API callbacks.</p>
-<b>What are the differences between ES6 classes and ES5 function constructors?</b>
+<b>7. What are the differences between ES6 classes and ES5 function constructors?</b>
 <p>ES6 class constructors creates objects by adding function to their prototypes. ES5 functions create objects and also an inheritance property.</p>
 
 <h2>Class 4: Prompt 202 - September 7</h2>
