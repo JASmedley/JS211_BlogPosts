@@ -1,7 +1,7 @@
 # JS211BlogPosts
 <h2>Class 8: Prompt 204 - September 21</h2>
 <b>1. Describe one thing you're learning in class today.</b><p></p>
-<p></p>
+<p>I learned that MasterMind is basically Wordle without words.</p>
 <b>2. Can you describe the main difference between a forEach loop and a .map() loop and why you would pick one versus the other?</b>
 <p>If you need to create a new array based on the original one, use .map(). If need to go through the array and perform some action without generating a new one, use forEach. So it depends on whether you need to transform data or just perform operations on it.</p>
 <b>3. Describe event bubbling.</b>
