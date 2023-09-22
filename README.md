@@ -1,11 +1,11 @@
 # JS211BlogPosts
 <h2>Class 6: Prompt 203 - September 14</h2>
 <b>Describe one thing you're learning in class today.</b>
-<p></p>
+<p>I have a really strong understanding of for loops now. Before I was memorizing the structure but not really understanding how they worked, but doing a prime number example helped me better understand how to think through problems and also exactly how for loops work.</p>
 <b>What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
-<p></p>
+<p>The first one is a function named "Person", the second one is a variable called "person" storing the function Person in it. The third one is altering the valueable person by adding a new blank property to the function Person.</p>
 <b>What's the difference between an "attribute" and a "property"?</b>
-<p></p>
+<p>Attributes are the information pieces specific to the properties in an element in the DOM, and the properties are the applicable generic qualities. Basically, if you have an element that's <code><input type="text"></input></code> then the property is <code>type</code> and the attribute is <code>"text"</code></p>
 <b>What language constructions do you use for iterating over object properties and array items?</b>
 <p></p>
 <b>What is the event loop?</b>
