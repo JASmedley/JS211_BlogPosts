@@ -5,7 +5,7 @@
 <b>What's the difference between: <code>function Person(){}</code>, <code>var person = Person(),</code>, and <code>var person = new Person()</code>?</b>
 <p>The first one is a function named "Person", the second one is a variable called "person" storing the function Person in it. The third one is altering the valueable person by adding a new blank property to the function Person.</p>
 <b>What's the difference between an "attribute" and a "property"?</b>
-<p>Attributes are the information pieces specific to the properties in an element in the DOM, and the properties are the applicable generic qualities. Basically, if you have an element that's <code><input type="text"></input></code> then the property is <code>type</code> and the attribute is <code>"text"</code></p>
+<p>Attributes are the information pieces specific to the properties in an element in the DOM, and the properties are the applicable generic qualities. Basically, if you have an element that's <code>input type ="text"</code> then the property is <code>type</code> and the attribute is <code>"text"</code></p>
 <b>What language constructions do you use for iterating over object properties and array items?</b>
 <p></p>
 <b>What is the event loop?</b>
