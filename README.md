@@ -7,13 +7,34 @@
 <b>What's the difference between an "attribute" and a "property"?</b>
 <p>Attributes are the information pieces specific to the properties in an element in the DOM, and the properties are the applicable generic qualities. Basically, if you have an element that's <code>input type ="text"</code> then the property is <code>type</code> and the attribute is <code>"text"</code></p>
 <b>What language constructions do you use for iterating over object properties and array items?</b>
-<p></p>
+<p>
+  For Arrays: 
+<code>.slice()
+.splice()
+.toString()
+.concat()
+.includes()
+.pop()
+.push()
+.join()
+.length
+.indexOf()
+.shift()
+.unshift()
+.every()
+.flat()
+.find()
+.reverse()
+.forEach()
+.map() 
+</code>
+</p>
 <b>What is the event loop?</b>
-<p></p>
+<p>An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.</p>
 <b>What is the difference between call stack and task queue?</b>
-<p></p>
+<p> CallStack is a data structure which keeps track of function calls. Whenever we call a function, we are pushing it to the stack. Task queue is a different type of callback, it is dedicated to handling web API callbacks.</p>
 <b>What are the differences between ES6 classes and ES5 function constructors?</b>
-<p></p>
+<p>ES6 class constructors creates objects by adding function to their prototypes. ES5 functions create objects and also an inheritance property.</p>
 
 <h2>Class 4: Prompt 202 - September 7</h2>
 <b>1. What's something that's been confusing? How would you explain it to someone else?</b>
