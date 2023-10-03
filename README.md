@@ -1,18 +1,31 @@
 # JS211BlogPosts
 <h2>Class 10: Prompt 205 - September 28</h2>
-<b>Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
+<b>1. Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
+<p>I leanred how to build my own unit tests. Building tests is important, because if you're working for a company with proprietary information, you don't want to just plug it in to codepen.io for the world to see just to be able to test your work.</p>
+<b>2. Can you offer a use case for the new arrow <code>=> </code>function syntax?</b>
+<p>When storing a function in a <code>const</code> variable, so <code> const exampleFunction = (parameter) => {} </code></p>
+<b>3. How does this new syntax differ from the older function signature, <code>function nameFunc(){}</code>, both in style and functionality?</b>
+<p>The arrow code is written as <br>
+<code>const nameFunc = () => { // function body };</code> <br>
+while the older function is written as <br>
+  <code>function nameFunc() {// function body} </code> <br>
+The arrow syntax is more advantageous because it's more concise (can be written all on one line), <br>
+<code>// Arrow function
+const add = (a, b) => a + b;
+
+// Traditional function
+function add(a, b) {
+  return a + b;
+}
+</code> and also it inherit's the `this` binding, unlike the older syntax where you have to define the function along with `this` for the binding to work. 
+</p>
+<b>4. Explain the differences on the usage of foo between <code>function foo() {}</code> and <code>const foo = function() {}</code></b>
+<p> The first one is creating a function called <code>foo</code> and the second is creating a variable called <code>foo</code> that will contain a function.</p>
+<b>5. What advantage is there for using the arrow syntax for a method in a constructor?</b>
+<p>With arrow functions, you can define methods inside the constructor itself, and you can still use the `this` binding with them. </p>
+<b>6.Can you give an example for destructuring an object or an array?</b>
 <p></p>
-<b>Can you offer a use case for the new arrow <code>=> </code>function syntax?</b>
-<p></p>
-<b>How does this new syntax differ from the older function signature, <code>function nameFunc(){}</code>, both in style and functionality?</b>
-<p></p>
-<b>Explain the differences on the usage of foo between <code>function foo() {}</code> and <code>const foo = function() {}</code></b>
-<p></p>
-<b>What advantage is there for using the arrow syntax for a method in a constructor?</b>
-<p></p>
-<b>Can you give an example for destructuring an object or an array?</b>
-<p></p>
-<b>Explain Closure in your own words. How do you think you can use it? Don't forget to read more blogs and videos about this subject.</b>
+<b>7.Explain Closure in your own words. How do you think you can use it? Don't forget to read more blogs and videos about this subject.</b>
 <p></p>
 
 <h2>Class 8: Prompt 204 - September 21</h2>
