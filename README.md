@@ -24,9 +24,16 @@ function add(a, b) {
 <b>5. What advantage is there for using the arrow syntax for a method in a constructor?</b>
 <p>With arrow functions, you can define methods inside the constructor itself, and you can still use the `this` binding with them. </p>
 <b>6.Can you give an example for destructuring an object or an array?</b>
-<p></p>
+<p><code>const person = {
+  name: "Alice",
+  age: 30,
+  city: "New York"
+};
+
+// Destructuring the object
+const { name, age, city } = person;</code></p>
 <b>7.Explain Closure in your own words. How do you think you can use it? Don't forget to read more blogs and videos about this subject.</b>
-<p></p>
+<p>To first understand Closure it's important to understand "lexical scope". Lexical scope basically means the scope of a variable is determined by its position within the source code. Like a variable defined within a function will not operate the same way as a variable defined outside of a function. A closure is a mix of a function and the lexical scope within which that function was declared. It's basically when you declare the function one last time.</p>
 
 <h2>Class 8: Prompt 204 - September 21</h2>
 <b>1. Describe one thing you're learning in class today.</b><p></p>
