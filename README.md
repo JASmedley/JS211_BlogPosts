@@ -1,4 +1,13 @@
 # JS211BlogPosts
+<h2>Class 10: Prompt 205 - September 28</h2>
+<b>Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
+<b>Can you offer a use case for the new arrow <code>=> </code>function syntax?</b>
+<b>How does this new syntax differ from the older function signature, <code>function nameFunc(){}</code>, both in style and functionality?</b>
+<b>Explain the differences on the usage of foo between <code>function foo() {}</code> and <code>const foo = function() {}</code></b>
+<b>What advantage is there for using the arrow syntax for a method in a constructor?</b>
+<b>Can you give an example for destructuring an object or an array?</b>
+<b>Explain Closure in your own words. How do you think you can use it? Don't forget to read more blogs and videos about this subject.</b>
+
 <h2>Class 8: Prompt 204 - September 21</h2>
 <b>1. Describe one thing you're learning in class today.</b><p></p>
 <p>I learned that MasterMind is basically Wordle without words.</p>
