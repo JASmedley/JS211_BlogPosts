@@ -32,7 +32,8 @@
 <p></p>
 <b>7. Explain the difference between mutable and immutable objects.</b>
 <p></p>
-8. What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.</b>
+<b>8. What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.</b>
+<p></p>
 
 <h2>Class 10: Prompt 205 - September 28</h2>
 <b>1. Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
