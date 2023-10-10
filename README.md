@@ -1,5 +1,23 @@
 # JS211BlogPosts
-<h2>Class 12: Prompt 206 - September 28</h2>
+<h2>Class 14: Prompt 207 - October 12</h2>
+<b>1. Write about something you learned this week.</b>
+<p></p>
+<b>2. Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?</b>
+<p></p>
+<b>3. What are the advantages and disadvantages of using Ajax?</b>
+<p></p>
+<b>4. Explain how JSONP works (and how it's not really Ajax).</b>
+<p></p>
+<b>5. Explain Ajax in as much detail as possible.</b>
+<p></p>
+<b>6. What does it mean when we talk about time complexity of an algorithm?</b>
+<p></p>
+<b>7. What are the three laws of algorithm recursion?</b>
+<p></p>
+<b>8. How do you see yourself growing as a web developer?</b>
+<p></p>
+
+<h2>Class 12: Prompt 206 - October 5</h2>
 <b>1. Tell us about something you learned this week.</b>
 <p></p>
 <b>2. What are the pros and cons of immutability?</b>
@@ -15,7 +33,8 @@
 <b>7. Explain the difference between mutable and immutable objects.</b>
 <p></p>
 8. What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.</b>
-<h2>Class 10: Prompt 205 - October 5</h2>
+
+<h2>Class 10: Prompt 205 - September 28</h2>
 <b>1. Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
 <p>I leanred how to build my own unit tests. Building tests is important, because if you're working for a company with proprietary information, you don't want to just plug it in to codepen.io for the world to see just to be able to test your work.</p>
 <b>2. Can you offer a use case for the new arrow <code>=> </code>function syntax?</b>
