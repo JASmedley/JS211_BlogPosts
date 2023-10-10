@@ -1,5 +1,21 @@
 # JS211BlogPosts
-<h2>Class 10: Prompt 205 - September 28</h2>
+<h2>Class 12: Prompt 206 - September 28</h2>
+<b>1. Tell us about something you learned this week.</b>
+<p></p>
+<b>2. What are the pros and cons of immutability?</b>
+<p></p>
+<b>3. How can you achieve immutability in your own code?</b>
+<p></p>
+<b>4. What are Divide and Conquer algorithms? Describe how they work. Can you give any common examples of the types of problems where this approach might be used?</b>
+<p></p>
+<b>5. How do insertion sort, heap sort, quick sort, and merge sort work?</b>
+<p></p>
+<b>6. What are the key advantages of insertion sort, quick sort, heap sort and merge sort? Discuss best, average, and worst case time and memory complexity.</b>
+<p></p>
+<b>7. Explain the difference between mutable and immutable objects.</b>
+<p></p>
+8. What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.</b>
+<h2>Class 10: Prompt 205 - October 5</h2>
 <b>1. Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
 <p>I leanred how to build my own unit tests. Building tests is important, because if you're working for a company with proprietary information, you don't want to just plug it in to codepen.io for the world to see just to be able to test your work.</p>
 <b>2. Can you offer a use case for the new arrow <code>=> </code>function syntax?</b>
