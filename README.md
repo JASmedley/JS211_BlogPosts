@@ -21,19 +21,50 @@
 <b>1. Tell us about something you learned this week.</b>
 <p>I learned about bubble sorting vs binary sorting, which was very informative because I kind of understood bubble sort but did not understand why it was slow and ineffective. Then seeing the animation of how it works it becamse clear that using bubble sort is like watching paint dry. Then we did binary sorting, which is the opposite of bubble sorting in that conceptually it sounds a lot slower, but in practice is much faster (for a computer at least, for a human this would be so much longer than randomly flipping through something). </p>
 <b>2. What are the pros and cons of immutability?</b>
-<p></p>
+<p>
+  <h3>Pros</h3>
+  <ul>
+    <li><b>Predictable:</b> They're predictable because they don't change after they're created so you always know how they're going to work</li>
+    <li><b>Debuggable:</b> Because of the point above, this makes them easier to debug</li>
+  </ul>
+  <h3>Cons</h3>
+  <p>
+    <ul>
+    <li><b>Learning Curve:</b> For developers transitioning from mutable to immutable programming paradigms, there might be a learning curve. </li>
+    <li><b>Memory Usage:</b> If you use too many immutable objects, you have to keep creating a bunch more to accomplish what you want, that uses up more memory.</li>
+  </ul>
+ </p>
 <b>3. How can you achieve immutability in your own code?</b>
 <p> You can use a <code>const</code> variable when you want to create an immutable variable. However, as a whole, JavaScript doesn't have immutable maps and lists so you would need to use a third-party script like immutable.js. However, immutable.js was written by developers at Facebook, the company that crashed for an entire day because someone got their border gateway protocol wrong, so maybe don't trust it too much.</p>
 <b>4. What are Divide and Conquer algorithms? Describe how they work. Can you give any common examples of the types of problems where this approach might be used?</b>
-<p></p>
+<p>Divide and conquer algorithms break larger problems into smaller subproblems. They keep breaking down the related subproblems until they become simple enough to be solved directly. Merge Sort is an example of a Divide and Conquer algorithm. 
+  <ul>
+  <li><b>Divide:</b> Split the unsorted list into sublists of related elements</li>
+  <li><b>Conquer:</b> Sort the sublists.</li>
+  <li><b>Combine:</b> Merge the sorted sublists to produce a new sorted list.</li>
+  </ul>
+</p>
 <b>5. How do insertion sort, heap sort, quick sort, and merge sort work?</b>
-<p></p>
+<p>
+  <ul>
+    <li><b>Insertion Sort:</b> Builds an already sorted array one element at a time.</li>
+    <li><b>Heap Sort:</b> Builds a binary tree where the parent nodes are greater than or equal to their children then takes the larges element and puts it at the end of the array. </li>
+    <li><b>Quick Sort:</b> Takes an element and puts it into two sublists (sub arrays), 1. elements less than the original and 2. elements greater than the original. It then sorts the sublists.</li>
+    <li><b>Merge Sort:</b> Takes an unsorted array and creates subarrays with a single element then keeps merging the subarray elements until only one sorted array is left.</li>
+  </ul>
+</p>
 <b>6. What are the key advantages of insertion sort, quick sort, heap sort and merge sort? Discuss best, average, and worst case time and memory complexity.</b>
-<p></p>
+<p>Insertion Sort is fastest for small datasets and already mostly sorted data. Quick Sort is the fastest general-purpose sorting algorithm in practice. Heap Sort is good for large datasets. Merge Sort is consistent but average, making it suitable for any other scenarios.</p>
 <b>7. Explain the difference between mutable and immutable objects.</b>
-<p></p>
+<p>Mutable means that the objects can change, or be affected later in the code. Immutable objects are the opposite.</p>
 <b>8. What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.</b>
-<p></p>
+<p>
+  <ol>
+    <li><b>Base Case Law:</b>Each recursive algorithm must have a base case, the emergency exit of a recursive function. It's a condition where the function stops making recursive calls and does something specifi.</li>
+    <li><b>Law of Progress:</b>Each recursive call must be one step closer to reaching the base case. If each recursive call doesn’t get closer to a solution, the function might never reach the base case, violating the first law.</li>
+    <li><b>Law of Design:</b>Each recursive algorithm must be able to solve a smaller subproblem of the original.</li>
+  </ol>
+</p>
 
 <h2>Class 10: Prompt 205 - September 28</h2>
 <b>1. Describe one thing you're learning in class today. Why do you think it will be important in your future web development journey?</b>
