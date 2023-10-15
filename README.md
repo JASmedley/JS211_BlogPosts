@@ -19,11 +19,11 @@
 
 <h2>Class 12: Prompt 206 - October 5</h2>
 <b>1. Tell us about something you learned this week.</b>
-<p></p>
+<p>I learned about bubble sorting vs binary sorting, which was very informative because I kind of understood bubble sort but did not understand why it was slow and ineffective. Then seeing the animation of how it works it becamse clear that using bubble sort is like watching paint dry. Then we did binary sorting, which is the opposite of bubble sorting in that conceptually it sounds a lot slower, but in practice is much faster (for a computer at least, for a human this would be so much longer than randomly flipping through something). </p>
 <b>2. What are the pros and cons of immutability?</b>
 <p></p>
 <b>3. How can you achieve immutability in your own code?</b>
-<p></p>
+<p> You can use a <code>const</code> variable when you want to create an immutable variable. However, as a whole, JavaScript doesn't have immutable maps and lists so you would need to use a third-party script like immutable.js. However, immutable.js was written by developers at Facebook, the company that crashed for an entire day because someone got their border gateway protocol wrong, so maybe don't trust it too much.</p>
 <b>4. What are Divide and Conquer algorithms? Describe how they work. Can you give any common examples of the types of problems where this approach might be used?</b>
 <p></p>
 <b>5. How do insertion sort, heap sort, quick sort, and merge sort work?</b>
