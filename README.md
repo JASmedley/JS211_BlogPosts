@@ -1,22 +1,44 @@
 # JS211BlogPosts
 <h2>Class 14: Prompt 207 - October 12</h2>
 <b>1. Write about something you learned this week.</b>
-<p></p>
+<p>I learned about big O functions and </p>
 <b>2. Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?</b>
-<p></p>
+<p>Because you want to load JavaScript as the page loads, maybe the functionality of your website is really dependent on JavaScript so you want to load that first so the website can work. The disadvantage is that if it's reliant on things like images or API calls it may make your website slow to load. Alternatively, you could load the JavaScript after content has already loaded which would make more sense for a website that's only using JavaScript for animations or non-functional purposes.</p>
 <b>3. What are the advantages and disadvantages of using Ajax?</b>
-<p></p>
+<p>
+  <h3>Advantages</h3>
+  <ul>
+    <li><b>Asynchronous Communication:</b> Ajax allows asynchronous data exchange between the client (browser) and server, meaning that web pages can request and send data to the server without refreshing the entire page. This provides a smoother user experience by updating specific parts of the page dynamically.
+</li>
+    <li><b>Improved User Experience: </b>Ajax enables interactive and responsive user interfaces by fetching and displaying data without requiring a full page reload. This leads to faster interactions, reduced latency, and a more desktop-like experience within web applications.</li>
+    <li><b>Bandwidth Efficiency: </b>Ajax requests typically transfer smaller amounts of data compared to reloading entire web pages, reducing bandwidth usage and speeding up data transmission, especially for users with limited internet connections.</li>
+    <li><b>Enhanced Interactivity: </b>Ajax allows developers to create interactive web applications, such as auto-suggest search boxes, real-time validation, and dynamic content loading, enhancing user engagement and interactivity.
+</li>
+    <li><b>Modular Development: </b>Ajax promotes modular development by separating the user interface logic from server-side processing. This separation of concerns can lead to cleaner and more maintainable code.</li>
+  </ul>
+<h3>Disadvantages</h3>
+<ul>
+    <li><b>Browser Compatibility: </b>Ajax implementations might behave differently across various web browsers. Ensuring consistent behavior and compatibility can be challenging, especially in older or less common browsers.</li>
+    <li><b>Search Engine Optimization (SEO) Challenges: </b>Search engines have historically had difficulty indexing content loaded dynamically via Ajax. Although modern search engines are improving in this regard, SEO challenges can still arise if Ajax is not implemented correctly.
+</li>
+    <li><b>Security Concerns: </b>Improperly implemented Ajax can expose security vulnerabilities such as Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) attacks. Developers need to be vigilant about validating and sanitizing user input to prevent these vulnerabilities.
+</li>
+    <li><b>Complexity in Debugging: </b>Asynchronous operations can make debugging more challenging. Issues related to the timing of requests and responses can be harder to trace and diagnose, requiring careful handling and testing.
+</li>
+    <li><b>Graceful Degradation: </b>Ajax-dependent features might not work well for users with JavaScript disabled. Implementing graceful degradation by providing alternative functionality for non-JavaScript users can be complex and add development overhead.
+</li>
+</ul>
+In summary, while Ajax offers significant advantages in terms of interactivity and user experience, developers need to be mindful of potential challenges related to browser compatibility, SEO, security, debugging complexity, and ensuring a seamless experience for users with different settings or limitations.</p>
+</p>
 <b>4. Explain how JSONP works (and how it's not really Ajax).</b>
-<p></p>
+<p>JSONP (JSON with Padding) is a technique to overcome the same-origin policy in web browsers, allowing cross-domain data requests. It works by injecting a <code><script></code> tag into the DOM, referencing a remote server's endpoint that wraps the data in a JavaScript function call. This function then processes the data, enabling communication between different domains. While JSONP utilizes script tags like traditional JavaScript includes, it's not truly Ajax because it doesn't use XMLHttpRequest and doesn't provide the same level of error handling and status codes.
+</p>
 <b>5. Explain Ajax in as much detail as possible.</b>
-<p></p>
+<p>Ajax (Asynchronous JavaScript and XML) is a web development technique that allows web pages to request and send data to a server asynchronously, without requiring a full page reload. It operates in the background, enabling seamless interaction between the user and the web application. Ajax combines several technologies, including JavaScript, XML (or JSON), HTML, and CSS, to dynamically update parts of a web page. By making asynchronous requests to the server, Ajax enhances user experience by enabling real-time data retrieval, interactive form submissions, and dynamic content loading, leading to more responsive and interactive web applications. This technique is fundamental for creating modern, dynamic, and user-friendly web interfaces.</p>
 <b>6. What does it mean when we talk about time complexity of an algorithm?</b>
-<p></p>
+<p>Time complexity of an algorithm refers to the measure of the amount of time an algorithm takes to complete as a function of the size of the input. It provides an estimate of the algorithm's efficiency and performance by quantifying the maximum number of basic operations (such as comparisons or assignments) the algorithm will execute, relative to the input size. Time complexity is expressed using Big O notation (e.g., O(n), O(n^2)), representing the upper bound of the algorithm's running time concerning the input size. A lower time complexity indicates a more efficient algorithm, capable of handling larger inputs without a significant increase in execution time. It helps in comparing and choosing algorithms based on their efficiency for specific problem-solving tasks.</p>
 <b>7. What are the three laws of algorithm recursion?</b>
-<p></p>
-<b>8. How do you see yourself growing as a web developer?</b>
-<p></p>
-
+<p>I think I answered this last class.</p>
 <h2>Class 12: Prompt 206 - October 5</h2>
 <b>1. Tell us about something you learned this week.</b>
 <p>I learned about bubble sorting vs binary sorting, which was very informative because I kind of understood bubble sort but did not understand why it was slow and ineffective. Then seeing the animation of how it works it becamse clear that using bubble sort is like watching paint dry. Then we did binary sorting, which is the opposite of bubble sorting in that conceptually it sounds a lot slower, but in practice is much faster (for a computer at least, for a human this would be so much longer than randomly flipping through something). </p>
